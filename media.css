@@ -1,0 +1,63 @@
+@media (max-width: 1080px) {
+    .check {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .links {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        background-color: burlywood;
+        z-index: 100;
+        width: 45%;
+        height: 100%;
+        text-align: center;
+        padding-top: 80px;
+        transform: translateX(-100%);
+        transition: 0.3s;
+    }
+    .discover .img img {
+        display: none;
+    }
+    .work {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .fast-img {
+        display: none;
+    }
+    .discount {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+    }
+    .footer .container {
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+    }
+    .box {
+        width: 50%;
+    }
+    .call {
+        flex-direction: column;
+        gap: 0;
+        width: 500px;
+        height: 300px;
+    }
+    .phone {
+        border-top: solid 2px #E6E6E6;
+        border-left: none;
+        padding-left: 0px;
+    }
+    .email {
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,359 @@
+p {
+    color: #667085;
+}
+li {
+    list-style: none;
+}
+.header {
+    background: #FFFBF3;
+    position: relative;
+    height: 850px;
+    padding: 30px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .links {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+.nav ul li a {
+    color: #3C3C3C;
+    font-weight: 700;
+    text-decoration: none;
+}
+ul li :hover{
+    color:  #FFC12F;
+    border-bottom: 4px solid  #FFC12F;
+}
+.discover {
+    display: flex;
+}
+.foot {
+    padding-top: 150px;
+}
+.delivery {
+    background: #FFF2D4;
+    width: 148px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.h2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Forever {
+    color: #FFC12F;
+}
+.h1 p {
+    color: #667085;
+    font-size: 15px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+.button button {
+    background-color: #FFC12F;
+    border-radius: 60px;
+    border: none;
+    width: 146px;
+    height: 52px;
+    gap: 30px;
+}
+.more {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.discover .img img{
+    position: absolute;
+    right: 0;
+    width: 1220px;
+    height: 750px;
+}
+.how {
+    text-align: center;
+    margin-top: 150px;
+}
+.how h1 {
+    margin-bottom: 30px;
+}
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.order .img{
+    background-color: 
+    #335DFF;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img {
+    width: 43px;
+    height: 33px;
+}
+.orderr .img{
+    background-color: 
+    #F6CA00;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orderrr .img{
+    background-color: 
+    #0BD28E;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.col .img img{
+    width: 148px;
+    height: 147px;
+}
+.col .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.col {
+    border: solid 
+    #707070 0.7px;
+    border-radius: 11px;
+}
+.row {
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.korzinka {
+    background-color: #F24D21;
+    border-radius: 4px;
+    border: none;
+}
+.share {
+    background-color: #3C3C3C;    
+    border-radius: 4px;
+    border: none;
+}
+.sharee {
+    display: flex;
+    gap: 10px;
+}
+.vega {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.how div{
+    color: #667085;
+    margin-bottom: 50px;
+}
+.Fast {
+    background-color: 
+    #FFFBF3;
+    margin-top: 300px;
+}
+.fast-1 {
+    background-color: #FFEFC8;
+    width: 109px;
+    height: 32px;
+    color:  #EF9737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.earn {
+    display: flex;
+    margin-left: 100px;
+}
+.fast-target {
+    margin-left: 80px;
+    margin-top: 140px;
+}
+.fast-target h1 {
+    margin-bottom: 30px;
+}
+.btn {
+    margin-top: 30px;
+}
+.discount {
+    display: flex;
+    gap: 30px;
+    margin-top: 200px;
+}
+.app {
+    width: 40%;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.app-img {
+    display: flex;
+    gap: 20px;
+}
+.apple {
+    width: 60%;
+}
+.apple img {
+    width: 100%;
+    padding: 100px 0 100px 100px;
+}
+.call-center {
+    background-image: linear-gradient(to top, 
+    #232233 0% 50%, white 50% 100%);
+}
+.call {
+    width: 1170px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.phone {
+    border-left: solid 2px #E6E6E6;
+    padding-left: 90px;
+}
+.icon {
+    background-color:  #FEB918;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    font-size: 30px;
+    color: white;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer {
+    background-color: #232233;
+    padding-bottom: 20px;
+}
+.log h1:nth-child(2) {
+    color: 
+    #FCC647;
+}
+.log h1:nth-child(1) {
+    color: white;
+}
+.log {
+    display: flex;
+}
+.logo {
+    padding-top: 150px;
+    width: 31%;
+}
+.icons img:nth-last-child(-n +3){
+    border-left: 1px solid white;
+}
+.icons img {
+    padding:  0 20px;
+}
+.quick {
+    color: white;
+}
+.footer .container:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.quick {
+    padding-top: 150px;
+}
+.span {
+    background-color: #FEB918;
+}
+.div {
+    background-color: 
+    #FEB918;
+    padding: 8px;
+    border-radius: 4px;
+}
+.letter {
+    color: white;
+    padding-top: 150px;
+}
+.footer .container:nth-child(2) {
+    color: white;
+    border-top: 1px solid white;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.quick ul li a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.check {
+    background-color:  #EF9737;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check img {
+    width: 70%;
+}
+.check {
+    display: none;
+}
+#check:checked ~ .links {
+    transform: translate(0);
+}
+#check {
+    display: none;
+}
+.discover .img img {
+    z-index: 1;
+}
+.foot {
+    z-index: 10;
+}
